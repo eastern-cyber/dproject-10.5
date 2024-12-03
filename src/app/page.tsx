@@ -49,9 +49,13 @@ function Header() {
       />
 
       <h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
-        dProject Login
+        <span className="inline-block text-blue-500"> dProject </span>
+        &nbsp;&nbsp;
+        <span className="inline-block -skew-x-6"> Login </span>
+        &nbsp;&nbsp;
         <span className="text-zinc-300 inline-block mx-1"> + </span>
-        <span className="inline-block -skew-x-6 text-blue-500"> Register </span>
+        &nbsp;&nbsp;
+        <span className="inline-block -skew-x-6"> Register </span>
       </h1>
 
       <p className="text-zinc-300 text-base">
