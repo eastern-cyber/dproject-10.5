@@ -4,14 +4,14 @@ export function Resources() {
         
         <ArticleCard
           title="ก๊อกก๊อก"
-          href="/"
+          href="../kok-kok"
           description="Kok Kok App - dProject SocialApp"
         />
   
         <ArticleCard
-          title="แผนการตลาด"
+          title="คูปองใช้งาน"
           href="/"
-          description="รูปแบบการแนะนำสมาชิกและการต่อสายงาน"
+          description="2K NFT Coupon"
         />
   
         <ArticleCard

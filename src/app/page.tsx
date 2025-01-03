@@ -27,7 +27,7 @@ export default function Home() {
         justifyContent: "center",
         height: "10vh",
       }}>
-        <h1 style={{ marginBottom: "20px"}}> Connect Web3 with Mobile Phone Number </h1>
+        <h1 style={{ marginBottom: "20px"}}> Connect Web3 with E-Mail </h1>
           <ConnectButton
             client={client}
             chain={chain}
@@ -35,7 +35,7 @@ export default function Home() {
               inAppWallet({
                   auth: {
                       options: [
-                          "phone",
+                          "email",
                           // "passkey",
                       ]
                   }
@@ -47,7 +47,7 @@ export default function Home() {
             marginBottom: "20px",
             marginTop: "20px",
             }}>
-            ล็อกอินด้วยเบอร์โทรศัพท์มือถือ
+            ล็อกอินด้วยอีเมลล์
           </h1>
         </div>
       </div>
@@ -70,7 +70,7 @@ export default function Home() {
               inAppWallet({
                   auth: {
                       options: [
-                          "phone",
+                          "email",
                           // "passkey",
                       ]
                   }

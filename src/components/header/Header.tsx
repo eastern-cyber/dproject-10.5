@@ -1,5 +1,5 @@
 import Image from "next/image";
-import dProjectIcon from "@public/Logo_DProject.svg";
+import dProjectIcon from "@public/DFastLogo_650x600.svg";
 import { title } from "process";
 
 // type HeaderProps = {
@@ -39,7 +39,7 @@ export function Header() {
       />
 
       <h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
-        <span className="inline-block text-blue-500"> dProject </span>
+        <span className="inline-block text-blue-500"> DFast </span>
         &nbsp;&nbsp;
         <span className="inline-block -skew-x-6"> Login </span>
         &nbsp;&nbsp;
@@ -49,7 +49,7 @@ export function Header() {
       </h1>
 
       <p className="text-zinc-300 text-base">
-        ใช้เบอร์โทรศัทพ์มือถือรับ{" "}
+        ใช้อีเมลล์รับ{" "}
         <code className="bg-zinc-800 text-zinc-300 px-2 rounded py-1 text-sm mx-1">
           OTP
         </code>เพื่อเข้าใช้งาน{" "}
