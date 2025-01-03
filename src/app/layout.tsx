@@ -6,7 +6,7 @@ import { ThirdwebProvider } from "@/app/thirdweb";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "dProject Login + Register",
+  title: "DFast Project",
   description:
     "Web3 Decentralized Application using Blockchain Wallet Credential",
 };
